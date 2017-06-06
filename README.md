@@ -40,10 +40,8 @@ it and another container below to see the effect.
 
 ## Options
 You can pass options by using the data attributes.
-
 Examples:
-To set the container's height, use`data-height="500px"`.
-
+To set the container's height, use `data-height="500px"`.
 To set the container's background image speed on scroll, use `data-speed=6`.
 
 Currently available options:
