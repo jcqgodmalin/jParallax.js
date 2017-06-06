@@ -3,7 +3,7 @@
 jParallax is just a simple parallax effect maker. No complicated **WTFs!!**, just
 simply controlling your container's background image's position on scroll.
 
-[jParallax Website][http://www.jhonchrizel.x10host.com/jparallax/] [View Demo][http://www.jhonchrizel.x10host.com/parallax/]
+[View Demo](http://www.jhonchrizel.x10host.com/parallax/)
 
 ## Installation
 Download the jParallax package and include it after jQuery.
