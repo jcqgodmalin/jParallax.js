@@ -13,7 +13,7 @@ Download the jParallax package and include it after jQuery.
 ```
 
 ## Usage
-### Step 1: Adding a class to your container tag.
+### Step 1: Adding a class to your container element.
 jParallax is very simple to use. Simply add a class `jparallax` to your element.
 
 Example:
@@ -55,7 +55,7 @@ Currently available options:
 | *data-height* | number | auto | No |
 | *data-speed* | float | 8 | No |
 
-**NOTE:** When `speed` is set to 0, the background will become fix. If 1, It will just scroll with the same speed.
+**NOTE:** When `speed` is set to 0, the background will become fixed. If 1, It will just scroll with the same speed.
 
 # License
 MIT License
