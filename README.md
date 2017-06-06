@@ -13,6 +13,7 @@ Download the jParallax package and include it after jQuery.
 ## Usage
 ### Step 1: Adding a class to your container tag.
 jParallax is very simple to use. Simply add a class `jparallax` to your element.
+
 Example:
 ```
 <div class="jparallax">
@@ -21,6 +22,7 @@ Example:
 ```
 ### Step 2: Use data attributes to assign the Background Image.
 Use `data-image` attribute to assign a background image.
+
 Example: *(Using the previous code...)*
 ```
 <div class="jparallax" data-image="path/to/backgroundimagefile.jpg">
@@ -37,8 +39,7 @@ it and another container below to see the effect.
 ## Options
 You can pass options by using the data attributes.
 
-To set the container's `height`:
-`data-height="500px"`
+To set the container's `height`:                                                                                                   `data-height="500px"`
 
 To set the container's background image `speed` on scroll:
 `data-speed="6"`
@@ -47,9 +48,9 @@ Currently available options:
 
 | Name | Type | Default | Reuired |
 | ----- | ----- | ----- | ----- |
-| image | Path | null | Yes |
-| height | number | auto | No |
-| speed | float | 8 | No |
+| `image` | Path | null | **Yes** |
+| `height` | number | auto | No |
+| `speed` | float | 8 | No |
 
 # License
 MIT License
