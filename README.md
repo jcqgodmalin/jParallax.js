@@ -41,18 +41,20 @@ it and another container below to see the effect.
 ## Options
 You can pass options by using the data attributes.
 
-To set the container's `height`:                                                                                                   `data-height="500px"`
+Examples:
+To set the container's height, use`data-height="500px"`.
 
-To set the container's background image `speed` on scroll:
-`data-speed="6"`
+To set the container's background image speed on scroll, use `data-speed=6`.
 
 Currently available options:
 
-| Name | Type | Default | Reuired |
+| Attribute | Type | Default | Reuired |
 | ----- | ----- | ----- | ----- |
-| *data-*`image` | Path | null | **Yes** |
-| *data-*`height` | number | auto | No |
-| *data-*`speed` | float | 8 | No |
+| *data-image* | Path | null | **Yes** |
+| *data-height* | number | auto | No |
+| *data-speed* | float | 8 | No |
+
+**NOTE:** When `speed` is set to 0, the background will become fix. If 1, It will just scroll with the same speed.
 
 # License
 MIT License
