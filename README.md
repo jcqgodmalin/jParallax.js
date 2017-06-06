@@ -33,7 +33,7 @@ Example: *(Using the previous code...)*
 You're done! Just simple as that.
 
 **NOTE**: Background Image is required. Also, by default, the container's `height` is
-set to 'auto'. So if the parallax effect is not showing, maybe put some contents inside
+set to `auto`. So if the parallax effect is not showing, maybe put some contents inside
 it and another container below to see the effect.
 
 ## Options
@@ -48,9 +48,9 @@ Currently available options:
 
 | Name | Type | Default | Reuired |
 | ----- | ----- | ----- | ----- |
-| `image` | Path | null | **Yes** |
-| `height` | number | auto | No |
-| `speed` | float | 8 | No |
+| *data-*`image` | Path | null | **Yes** |
+| *data-*`height` | number | auto | No |
+| *data-*`speed` | float | 8 | No |
 
 # License
 MIT License
